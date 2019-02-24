@@ -11,7 +11,7 @@ class ContentSpider(scrapy.Spider):
     def parse(self, response):
         # Write response into file
         filename = "".join(["./data/", response.url.split("/")[-2], ".html"])
-        with open(filename, 'wb') as f:
+        with open(filename, 'wb+') as f:
             f.write(response.body)
 
         # Go to any links found in this page

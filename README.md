@@ -25,7 +25,8 @@ To scrape the content from the links in `google_links.txt`, run the following.
 ```
 scrapy runspider content_scraper.py
 ```
-* The scraped content from each webpage will be saved in an individual HTML file in `./data/`. Make sure the `./data/` directory exists in the root directory before running this script.
+* The scraped content from each webpage will be saved in an individual HTML file in `./data/`. 
+* **IMPORTANT: Make sure the `./data/` directory exists in the root directory before running this script.**
 
 ## Archive
 The `./archive/` directory stores zip folders of previously scraped data. The file naming convention is `data-YYDDMM.zip`.
