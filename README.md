@@ -9,6 +9,8 @@ Also install the necessary dependencies by running
 pip install -r requirements.txt
 ```
 
+Finally, make sure a `./data/` directory exists in the root directory.
+
 ## Developer's Guide
 
 ### Getting Google Results as Links
