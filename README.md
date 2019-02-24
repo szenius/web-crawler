@@ -29,6 +29,7 @@ scrapy runspider content_scraper.py
 ```
 * The scraped content from each webpage will be saved in an individual HTML file in `./data/`. 
 * **IMPORTANT: Make sure the `./data/` directory exists in the root directory before running this script.**
+* The output HTML files are the original HTML source files as scraped from the links. Each HTML file may use different tags to enclose the same type of content. I.e. questions and answers may not be enclosed by the same HTML tags in different files. 
 
 ## Archive
 The `./archive/` directory stores zip folders of previously scraped data. The file naming convention is `data-YYDDMM.zip`.
